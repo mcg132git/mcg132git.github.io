@@ -5,14 +5,14 @@
 
 body {
     font-size: 16px;
-    background-color: lightblue;
+    background-color: #8bb1d8;
 }
 
 header{
-    margin: : 10px auto;
-    background-color: #747C92;
-    border: 1px solid #bbb;
-    box-shadow: 0 0 30px #777;
+    margin: 10px auto;
+    background-color: #8bb1d8;
+    border: 1px solid #8bb1d8;
+    box-shadow: 0 0 30px #0055aa;
     text-align: center;
 
 }
@@ -21,7 +21,20 @@ header{
     display:  inline-block;
     vertical-align: middle;
     margin: 10px;
+}
 
+nav{
+    background-color: #5c92c8;
+    text-align: center;
+}
 
+nav ul {
+    list-style-type: none;
+}
 
+nav ul li a {
+    padding: .5rem;
+    display: block;
+    text-decoration: #8bb18b;
+    color: black;
 }
