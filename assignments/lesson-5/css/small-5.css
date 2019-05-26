@@ -1,0 +1,30 @@
+body {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #8bb1d8;
+    text-align: center;
+    padding: .5rem;
+    color: black;
+}
+
+header img {
+    display: inline-block;
+    width: 75px;
+    hieght: auto;
+    vertical-align: middle;
+}
+
+.headertext {
+    margin-left: 0.5rem;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+h1 {
+    font-size: .9rem;
+    color: black;
+    font-style: italic
+}
