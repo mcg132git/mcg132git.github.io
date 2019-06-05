@@ -32,11 +32,17 @@ header{
 }
 
 .mainLogoMoto {
-    justify-content: center;
-    display: flex;
-    text-align: center;
-
+    font-size: 35px;
+    margin: 0 auto;
+    max-width: 700px;  
 }
+
+.motto {
+    font-size: 25px;
+    margin: 0 auto;
+    width: 700px;
+}
+
 
 nav{
     background-color: #5c92c8;
