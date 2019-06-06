@@ -20,8 +20,9 @@ header{
 }
 
 .mainLogo {
-    width: 35%
+    width: 20%;
     height: auto;
+    padding-left: 10%
 
 }
 
@@ -33,14 +34,22 @@ header{
 
 .mainLogoMoto {
     font-size: 35px;
-    margin: 0 auto;
-    max-width: 700px;  
+    height: auto;
+    padding-top: 5%  
 }
 
 .motto {
     font-size: 25px;
     margin: 0 auto;
     width: 700px;
+    display: inline-block;
+}
+
+.mottoTwo {
+    font-size: 24px;
+    height: auto;
+    text-align: center;
+
 }
 
 
