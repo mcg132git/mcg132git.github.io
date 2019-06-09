@@ -65,6 +65,13 @@ header{
 
 }
 
+.footer-section {
+    font-size: 18px;
+    height: auto;
+    text-align: center;
+
+}
+
 
 .navigation {
     background-color: #5c92c8;
