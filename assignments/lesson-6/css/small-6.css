@@ -32,8 +32,8 @@ header{
     margin: 10px;
 }
 
-.mainLogoMoto {
-    font-size: 80px;
+.mainLogoMoto h1 {
+    font-size: 65px;
     border-top: 15ex
   
 }
@@ -66,7 +66,7 @@ header{
 }
 
 
-nav{
+.navigation {
     background-color: #5c92c8;
     text-align: left;
 }
@@ -80,7 +80,6 @@ nav{
 
         ul {
             justify-content: center;
-            display: flex;
           }
 
         li a {
@@ -95,7 +94,25 @@ nav ul {
 
 nav ul li a {
     padding: .5rem;
-    display: block;
     text-decoration: #8bb18b;
     color: black;
+}
+
+nav {	margin: 0 auto; background-color: #5c92c8;	}
+.navigation { list-style: none; text-align: center; }
+  .navigation li:first-child { display: block;}
+  .navigation li { display: none;}
+  .navigation a {	display: block;	color: #fff; padding: .75rem;	text-align: center;	text-decoration: none;}
+  .navigation a:hover {	color: #000; background-color: #5c92c8 ; font-weight: 700;	}
+
+/* the onclick JS toggles the .repsonsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
+  <ul class="navigation responsive">
+  */
+	.responsive li { display: block; }
+
+/* Media Query for medium + screens */
+@media only screen and (min-width: 32.5em) {
+  .navigation li:first-child { display: none;	}
+	.navigation li { display: inline-block; margin-right: 1rem;}	
+	.navigation li a { color: black;}
 }
