@@ -142,5 +142,7 @@ nav {	margin: 0 auto; background-color: #5c92c8;	}
     opacity: 0.8;
     background: lightseagreen;
     padding: 20px;
+    border-radius: 15px;
+    box-shadow: 05px 10px black;
 
 }
