@@ -131,18 +131,29 @@ nav {	margin: 0 auto; background-color: #5c92c8;	}
 
 .bottom-left {
     position: absolute;
-    bottom: 8px;
+    bottom: 80px;
     left: 16px;
 }
 
 .weather-summary-list {
     float: left;
+    font-size: 20px;
     width: 100%;
-    height: 125pt;
+    height: 100pt;
     opacity: 0.8;
     background: lightseagreen;
     padding: 20px;
     border-radius: 15px;
     box-shadow: 05px 10px black;
+}
+
+.main-article {
+    max-width: 1000px;
+    margin: auto;
+    background-color:  #5c92c8e5;
+}
+
+.picnic-family {
+    float: right;
 
 }
