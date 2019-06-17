@@ -3,24 +3,29 @@ html {
   }
 
 caption {
+    
     background-color: #80ced6;
+    box-shadow: 5px 8px lightgray;
     
   }
 
 table {
-      box-shadow: 2px gray;
+      box-shadow: 5px 8px lightgrey;
       background-color: lightsteelblue;
       width: 25%;
       text-align: center;
-      border-collapse: unset;
+      
   }
 
   tr th { 
       background-color: steelblue;
   }
 
-  tr:nth-child(even) {background: rgb(226, 226, 226)}
-  tr:nth-child(odd) {background: #FFF}
+  tr:nth-child(even)
+    {background: rgb(226, 226, 226)}
+
+  tr:nth-child(odd)
+    {background: #FFF}
 
   caption-bottom {
     caption-side: bottom;
