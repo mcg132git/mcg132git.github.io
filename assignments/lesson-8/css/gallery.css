@@ -1,22 +1,38 @@
-.gallery {
-    margin: 10px 50px;
-}
-
-.gallery img {
-    transition: 1s;
-    padding: 15px;
-    width: 200px;
-}
-
-.gallery img:hover{
-    filter: opacity(0.5)
-}
-
-.gallery {
-    padding: 15%;
+body {
+    margin: 0;
     background: #8bb1d8;
 }
 
-.gallery-title {
-    text-align: center;
+header {
+    margin: 0.5vw;
+    font-size: 0;
+    display: -ms-flexbox;
+    -ms-flexbox-wrap: wrap;
+    -ms-flexbox-direction: column;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    display: -webkit-box;
+    display: flex;
+}
+
+header div {
+    -webkit-box-flex: auto;
+    -ms-flex: auto;
+    flex: auto;
+    width: 200px;
+    margin: 0.5vw;
+}
+
+body img {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 400px) {
+    body {
+        margin: 0;
+    }
+    body {
+        padding: 0;
+    }
 }
