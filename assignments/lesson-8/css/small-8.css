@@ -173,7 +173,21 @@ nav {	margin: 0 auto; background-color: #5c92c8;	}
 }
 
 .grid div img {
-    max-width: 200px;
-    max-height: 200px;
-    align-self: center;
+    max-width: 250px;
+    max-height: 250px;
+    align-self: left;
+    box-shadow: 10px 6px 6px lightslategray;
 }
+
+.caption {
+    text-align: center;
+    text-decoration-color: aqua;
+}
+
+.grow { 
+    transition: all .2s ease-in-out; 
+    }
+     
+.grow:hover { 
+    transform: scale(1.3);
+    }
