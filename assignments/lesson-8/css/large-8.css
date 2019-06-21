@@ -1,20 +1,8 @@
-@media only screen and (min-width: 32.5em) {
+@media only screen and (min-width: 64em) {
 
-    header img {
-        width: 150px;
+    
+    .grid {
+        grid-template-columns: 1fr 1fr 1fr;
     }
-    
-    h1 {
-        font-size: 2.5rem;
-    }
-    
-    .headertext {
-        margin-left: 4rem;
-    }
-    
-    
-    
-    
-    
-    
-    }
+
+     }

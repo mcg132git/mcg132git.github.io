@@ -1,19 +1,54 @@
 <!DOCTYPE html>
-<html lang="en">    
-    <head>
-        <title>Image Gallery</title>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="css/gallery.css">
-    </head>
-    <body>
-        <header>
-            <div><img src="images/preston-1-lg-01.jpg" alt="preston-1-lg-01"></div>
-            <div><img src="images/preston-2-lg-02.jpg" alt="preston-2-lg-02"></div>
-            <div><img src="images/preston-3-lg-02.jpg" alt="preston-3-lg-02"></div>
-            <div><img src="images/preston-4-lg-02.jpg" alt="preston-4-lg-02"></div>
-            <div><img src="images/preston-5-lg-02.jpg" alt="preston-5-lg-02"></div>
-            <div><img src="images/preston-6-lg-02.jpg" alt="preston-6-lg-02"></div>
-            <div><img src="images/preston-7-lg-02.jpg" alt="preston-7-lg-02"></div>
-        </header>
-    </body>
+<html lang="en">
+
+<head>
+    <title>Image Gallery</title>
+    <meta charset="UTF-8">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="css/small-8.css" rel="stylesheet">
+    <link href="css/medium-8.css" rel="stylesheet">
+    <link href="css/large-8.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="images/sun-cloud-snow-47313.png" alt="sun-cloud-snow-47313" class="mainLogo">
+        <div class="mainLogoMoto">
+            <h1>Potato Weather</h1>
+            <div class="motto">"We do more than potatoes in Idaho"</div>
+        </div>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="preston-8.html" title="Menu" onclick="home">Home</a></li>
+            <li><a href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="#">Storm Center</a></li>
+            <li><a href="gallery.html" title="Menu" onclick="gallery">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="grid">
+        <div><img src="images/preston-1-lg-01.jpg" alt="preston-1-lg-01"></div>
+        <div><img src="images/preston-2-lg-02.jpg" alt="preston-2-lg-02"></div>
+        <div><img src="images/preston-3-lg-02.jpg" alt="preston-3-lg-02"></div>
+        <div><img src="images/preston-4-lg-02.jpg" alt="preston-4-lg-02"></div>
+        <div><img src="images/preston-5-lg-02.jpg" alt="preston-5-lg-02"></div>
+        <div><img src="images/preston-7-lg-02.jpg" alt="preston-7-lg-02"></div>
+        </div>
+    </main>
+    <footer>
+        <section class="footer-section">
+            <p>copywrite etc.</p>
+            <p><span id="dtText"></span></p>
+        </section>
+    </footer>
+    <script src="js/ham.js"></script>
+    <script src="js/time.js"></script>
+</body>
+
+
 </html>
