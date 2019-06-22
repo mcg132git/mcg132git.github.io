@@ -147,6 +147,7 @@ nav {	margin: 0 auto; background-color: #5c92c8;	}
     box-shadow: 05px 10px black;
 }
 
+
 .main-article {
     max-width: 1000px;
     margin: auto;
@@ -165,10 +166,10 @@ nav {	margin: 0 auto; background-color: #5c92c8;	}
     margin: 15px;
     align-items: center;
     justify-items: center;
+    text-align: center;
 }
 
 .grid div {
-    max-width: 200px;
     margin: 0;
 }
 
