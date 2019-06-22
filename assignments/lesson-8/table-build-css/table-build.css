@@ -5,12 +5,12 @@ html {
 caption {
     
     background-color: #80ced6;
-    box-shadow: 5px 8px lightgray;
+    box-shadow: 5px 8px 8px lightgray;
     
   }
 
 table {
-      box-shadow: 5px 8px lightgrey;
+      box-shadow: 5px 8px 8px lightgrey;
       background-color: lightsteelblue;
       width: 25%;
       text-align: center;
