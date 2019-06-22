@@ -156,7 +156,7 @@ nav {	margin: 0 auto; background-color: #5c92c8;	}
 
 .picnic-family {
     float: right;
-
+    box-shadow: #000 8px 6px 5px;
 }
 
 .grid {
