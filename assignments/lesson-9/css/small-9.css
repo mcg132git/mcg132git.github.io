@@ -18,6 +18,10 @@ header{
     text-align: center;
 }
 
+main, section, article {
+    padding: 2%;
+}
+
 .mainLogo {
     width: auto;
     height: 100%;
@@ -159,6 +163,11 @@ nav {	margin: 0 auto; background-color: #5c92c8;	}
 .picnic-family {
     float: right;
     box-shadow: #000 8px 6px 5px;
+}
+
+.footer-section {
+    padding: 2%;
+    background-color: #2e73b9;
 }
 
 .grid {
