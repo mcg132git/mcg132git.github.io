@@ -213,3 +213,11 @@ nav {	margin: 0 auto; background-color: #5c92c8;	}
     max-width: 960px;
     font-family: helvetica, sans-serif;
 }
+
+input:invalid {
+    background-color: lightcoral;
+}
+
+input:valid {
+    background-color: lightgreen;
+}

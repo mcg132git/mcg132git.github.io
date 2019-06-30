@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Potato Weather Idaho's Weather Station and More</Title>
+    <meta name="description" content="The Weather Site We do more than just potatoes in Idaho">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="css/small-9.css" rel="stylesheet">
+    <link href="css/medium-9.css" rel="stylesheet">
+    <link href="css/large-9.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="images/sun-cloud-snow-47313.png" alt="sun-cloud-snow-47313" class="mainLogo">
+        <div class="mainLogoMoto">
+            <h1>Potato Weather</h1>
+            <div class="motto">"We do more than potatoes in Idaho"</div>
+        </div>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="preston-9.html" title="Menu" onclick="home">Home</a></li>
+            <li><a href="#">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="stormcenter.html" title="Storm-Center" onclick="stormcenter">Storm Center</a></li>
+            <li><a href="gallery.html" title="Menu" onclick="gallery">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="main-page-grid">
+            <div class="TownData">
+                <h3 id="PrestonName"></h3>
+                <div id="PrestonMotto"></div>
+                <div id="PrestonFounded"></div>
+                <div id="PrestonPopulation"></div>
+                <div id="PrestonRainfall"></div>
+            </div>
+            <div class="TownData">
+                    <h3 id="SodaSpringsName"></h3>
+                    <div id="SodaSpringsMotto"></div>
+                    <div id="SodaSpringsFounded"></div>
+                    <div id="SodaSpringsPopulation"></div>
+                    <div id="SodaSpringsRainfall"></div>
+            </div>
+            <div class="TownData">
+                    <h3 id="FishHavenName"></h3>
+                    <div id="FishHavenMotto"></div>
+                    <div id="FishHavenFounded"></div>
+                    <div id="FishHavenPopulation"></div>
+                    <div id="FishHavenRainfall"></div>
+            </div>
+
+        </div>
+    </main>
+    <aside>
+
+    </aside>
+    <footer>
+        <section class="footer-section">
+            <p>copywrite etc.</p>
+            <p><span id="dtText"></span></p>
+        </section>
+    </footer>
+    <script src="js/ham.js"></script>
+    <script src="js/time.js"></script>
+    <script src="js/towndata.js"></script>
+
+</body>
+
+</html>
