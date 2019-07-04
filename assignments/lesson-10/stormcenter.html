@@ -62,7 +62,26 @@
                         <option value="heavyrain">Heavy Rain</option>
                         <option value="severeThunderStorm">severe Thunder Storms</option>
                         <option value="windy">Windy</option>
+                </select><br>
+                <label for="stormSeverity">Severity of Storm: 1 least / 10 Greatest</label>
+                <input type="range" name="severity" id="rangeSeverity" value="5" min="1" max="10" oninput="rangeSeverity_disp.value = rangeSeverity.value">
+                <output id="rangeSeverity_disp"></output><br>
+                <label for="stormRegion">Storm Region:</label>
+                <select name="stormRegion">
+                    <option value="Preston">Preston</option>
+                    <option value="SugarCity">Sugar City</option>
+                    <option value="FishHaven">Fish Haven</option>
                 </select>
+            </fieldset>
+            <fieldset>
+                <legend>Danger Level</legend>
+                <label for="dangerLevel">Is Reporting User in Dager:</label><br>
+                <input type="radio" name="dangerLevel" value="yes"> Yes<br>
+                <input type="radio" name="dangerLevel" value="maybe"> Maybe<br>
+                <input type="radio" name="dangerLevel" value="no"> No<br>
+                <label for="userTextInput">Additionl comments:</label>
+                <textarea rows="4" cols="50" name="comment" form="usrform">Enter text here...</textarea><br>
+
             </fieldset>
 
     </main>
