@@ -20,8 +20,10 @@ towns.forEach(town => {
         var TownName = town.name.replace(/\s/g,'');
   if(TownName =='Preston' || TownName =='SodaSprings' || TownName =='FishHaven'){
           document.getElementById(TownName+'Name').innerHTML = town.name;
-
+          document.getElementById(TownName+'Motto').innerHTML = town.motto;
           document.getElementById(TownName+'Founded').innerHTML = 'Year Founded: ' + town.yearFounded;
+          document.getElementById(TownName+'Population').innerHTML = 'Current Population: ' + town.currentPopulation;
+          document.getElementById(TownName+'Rainfall').innerHTML = 'Total Rainfall: ' + town.averageRainfall;
   }      
 });
 

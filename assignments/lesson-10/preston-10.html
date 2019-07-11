@@ -24,8 +24,8 @@
     <nav>
         <ul class="navigation">
             <li><a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
-            <li><a href="preston-10.html" title="Menu" onclick="home">Home</a></li>
-            <li><a href="#">Preston</a></li>
+            <li><a href="index.html" title="index" onclick="home">Home</a></li>
+            <li><a href="preston-10.html" title="Preston" onclick="preston">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
             <li><a href="#">Fish Haven</a></li>
             <li><a href="stormcenter.html" title="Storm-Center" onclick="stormcenter">Storm Center</a></li>
@@ -48,6 +48,18 @@
                 </ul>
 
             </div>
+            <table>
+                <thead>
+                    <title>Table Build</title>
+                    <table class="fiveDay">
+                    <caption align="top"><h1>Five Day Forcast<h1></caption>
+                        <th></th>
+                </thead>
+                <tbody>
+
+                </tbody>
+
+            </table>
 
             <section class="main-article">
                 <h3>News Article</h3>
@@ -81,7 +93,9 @@
     <script src="js/ham.js"></script>
     <script src="js/time.js"></script>
     <script src="js/windchill.js"></script>
-
+    <h1>OpenWeatherMap.org API Test</h1>
+    <p>The current temperature in Preston, Idaho is <span id="current-temp"></span>&deg; F</p>
+    <script src="js/weatherapi.js"></script>
 </body>
 
 </html>

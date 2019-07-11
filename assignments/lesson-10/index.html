@@ -24,8 +24,8 @@
     <nav>
         <ul class="navigation">
             <li><a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
-            <li><a href="preston-10.html" title="Menu" onclick="home">Home</a></li>
-            <li><a href="#">Preston</a></li>
+            <li><a href="index.html" title="index" onclick="home">Home</a></li>
+            <li><a href="preston-10.html" title="preston-10" onclick="preston">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
             <li><a href="#">Fish Haven</a></li>
             <li><a href="stormcenter.html" title="Storm-Center" onclick="stormcenter">Storm Center</a></li>
@@ -33,30 +33,46 @@
         </ul>
     </nav>
     <main>
-        <div class="main-page-grid">
-            <div class="TownData">
-                <h3 id="PrestonName"></h3>
-                <div id="PrestonMotto"></div>
-                <div id="PrestonFounded"></div>
-                <div id="PrestonPopulation"></div>
-                <div id="PrestonRainfall"></div>
+        </div>
+        <div class="mottoTwo">
+            <h2>Potato Weather's Most Accurate Home</h2>
+            <div class="container-farm-1">
+                <img src="images/farm-1.jpg" alt="farm-1" class="farm-1"></div>
+            <div class="bottom-left">
+                <ul class="weather-summary-list">
+                    <h4><u>Weather Summary</u></h4>
+                    <li>Currently:<span id="currentCondition">Sunny</span></li>
+                    <li><span id="currentTemp">76</span>Degrees</li>
+                    <li>Wind Chill<span id="windChill">15</span></li>
+                    <li><span id="humidity">80</span>humidity</li>
+                    <li><span id="windSpeed">10</span>mph Wind Speed</li>
+                </ul>
+
             </div>
-            <div class="TownData">
+            <div class="main-page-grid">
+                <div class="TownData">
+                    <h3 id="PrestonName"></h3>
+                    <div id="PrestonMotto"></div>
+                    <div id="PrestonFounded"></div>
+                    <div id="PrestonPopulation"></div>
+                    <div id="PrestonRainfall"></div>
+                </div>
+                <div class="TownData">
                     <h3 id="SodaSpringsName"></h3>
                     <div id="SodaSpringsMotto"></div>
                     <div id="SodaSpringsFounded"></div>
                     <div id="SodaSpringsPopulation"></div>
                     <div id="SodaSpringsRainfall"></div>
-            </div>
-            <div class="TownData">
+                </div>
+                <div class="TownData">
                     <h3 id="FishHavenName"></h3>
                     <div id="FishHavenMotto"></div>
                     <div id="FishHavenFounded"></div>
                     <div id="FishHavenPopulation"></div>
                     <div id="FishHavenRainfall"></div>
-            </div>
+                </div>
 
-        </div>
+
     </main>
     <aside>
 
