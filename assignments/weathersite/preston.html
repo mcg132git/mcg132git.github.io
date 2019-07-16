@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Potato Weather Idaho's Weather Station and More</Title>
+    <meta name="description" content="The Weather Site We do more than just potatoes in Idaho">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/medium.css" rel="stylesheet">
+    <link href="css/large.css" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <img src="images/sun-cloud-snow-47313.png" alt="sun-cloud-snow-47313" class="mainLogo">
+        <div class="mainLogoMoto">
+            <h1>Potato Weather</h1>
+            <div class="motto">"We do more than potatoes in Idaho"</div>
+        </div>
+    </header>
+    <nav>
+        <ul class="navigation">
+            <li><a href="#" title="Menu" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="index.html" title="index" onclick="home">Home</a></li>
+            <li><a href="preston.html" title="Preston" onclick="preston">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="stormcenter.html" title="Storm-Center" onclick="stormcenter">Storm Center</a></li>
+            <li><a href="gallery.html" title="Menu" onclick="gallery">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div class="mottoTwo">
+            <h2>Preston Idaho</h2>
+            <div class="container-farm-1">
+                <img src="images/farm-1.jpg" alt="farm-1" class="farm-1"></div>
+            <div class="bottom-left">
+                <ul class="weather-summary-list">
+                    <h4><u>Weather Summary</u></h4>
+                    <li>Currently:<span id="currentCondition">Sunny</span></li>
+                    <li><span id="currentTemp">76</span>Degrees</li>
+                    <li>Wind Chill<span id="windChill">15</span></li>
+                    <li><span id="humidity">80</span>humidity</li>
+                    <li><span id="windSpeed">10</span>mph Wind Speed</li>
+                </ul>
+
+            </div>
+            <table>
+                <thead>
+                    <title>Table Build</title>
+                    <table class="fiveDay">
+                    <caption align="top"><h1>Five Day Forcast<h1></caption>
+                        <th></th>
+                </thead>
+                <tbody>
+
+                </tbody>
+
+            </table>
+
+            <section class="main-article">
+                <h3>News Article</h3>
+                <div class="acc">by author</div>
+                <article>
+                    <picture><img src="images/picnic-temp-news.jpg" alt="picnic-temp-news" class="picnic-family"></picture>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget vehicula sem, eget aliquam
+                        massa. Quisque tristique in lectus eu tempor. Integer id dui vulputate, hendrerit nibh at,
+                        luctus lorem. Aenean varius non sapien sed dignissim. Aenean vitae diam eu ex placerat suscipit
+                        non sit amet justo. Donec in leo pharetra, condimentum libero eu, semper libero. Maecenas in
+                        tortor non neque feugiat fermentum quis sit amet quam. Sed consectetur facilisis magna, vitae
+                        mattis arcu gravida id. Vestibulum sit amet maximus ligula. Curabitur commodo quam purus, et
+                        sodales ex hendrerit eget. Quisque at vehicula metus, at egestas risus. Nulla rhoncus, enim sed
+                        lacinia lacinia, erat justo iaculis ante, at posuere felis nunc et lorem. Phasellus sit amet
+                        erat at metus suscipit pretium nec eu erat. Integer et hendrerit arcu. Ut quis iaculis dolor.
+                    </p>
+                    
+                </article>
+
+            </section>
+    </main>
+    <aside>
+
+    </aside>
+    <footer>
+        <section class="footer-section">
+            <p>copywrite etc.</p>
+            <p><span id="dtText"></span></p>
+        </section>
+    </footer>
+    <script src="js/ham.js"></script>
+    <script src="js/time.js"></script>
+    <script src="js/windchill.js"></script>
+    <h1>OpenWeatherMap.org API Test</h1>
+    <p>The current temperature in Preston, Idaho is <span id="current-temp"></span>&deg; F</p>
+    <script src="js/weatherapi.js"></script>
+</body>
+
+</html>
