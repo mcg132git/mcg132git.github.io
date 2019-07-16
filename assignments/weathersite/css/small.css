@@ -163,6 +163,21 @@ nav {	margin: 0 auto; background-color: #5c92c8;	}
 .picnic-family {
     float: right;
     box-shadow: #000 8px 6px 5px;
+    margin-left: 2%;
+}
+
+.fishing {
+    float: left;
+    box-shadow: #000 8px 6px 5px;
+    margin-right: 2%;
+    margin-bottom: 2%;
+}
+
+.barn {
+    float: right;
+    box-shadow: #000 8px 6px 5px;
+    margin-left: 2%;
+    margin-bottom: 2%;
 }
 
 .MainPageGrid {
