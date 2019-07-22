@@ -117,8 +117,16 @@ p {
 }
 
 .temple-list {
-    text-align: center;
+    text-align: center;	
 }
+
+.grow { 
+    transition: all .2s ease-in-out; 
+    }
+     
+.grow:hover { 
+    transform: scale(1.3);
+    }
 
 .footer-section p {
     padding: 1%;
