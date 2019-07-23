@@ -13,4 +13,6 @@ function callweatherInfo(jsonObj) {
 console.log (jsonObj);
 
 document.getElementById("current-temp").innerHTML = jsonObj.main.temp;
+document.getElementById("humidity").innerHTML = jsonObj.main.humidity;
+document.getElementById("wind-speed").innerHTML = jsonObj.wind.speed;
 }
